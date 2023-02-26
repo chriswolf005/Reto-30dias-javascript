@@ -1,0 +1,20 @@
+{
+  "name": "reto-30dias-javascript",
+  "version": "1.0.0",
+  "description": "En este repositorio estarán todos los ejercicios hechos en el reto de 30 días de JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chriswolf005/Reto-30dias-javascript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chriswolf005/Reto-30dias-javascript/issues"
+  },
+  "homepage": "https://github.com/chriswolf005/Reto-30dias-javascript#readme"
+}
