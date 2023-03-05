@@ -1,16 +1,3 @@
-var estudiantes=["maria","pedro","juan","carlos"];
-
-function saludarEstudiantes(estudiante){
-    console.log(`Hola ${estudiante}`)
-
-
-}
-
-for (let i=0; i<estudiantes.length; i++){
-
-    saludarEstudiantes(estudiantes[i]);
-
-}
 
 function arbol1(long,caracter){
  let arbol=""
@@ -38,10 +25,3 @@ arbol1(6,"$")
 arbol1(3,"%")
 
 
-function arbolArray(long,caracter){
-    let rray=[]
-       for(let i=0; i<long;i++){
-           rray.push(caracter)
-           console.log(rray)
-       }
-    }
