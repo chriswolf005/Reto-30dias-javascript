@@ -35,6 +35,15 @@ function createTaskPlanner() {
             return a.priority - b.priority
         })
         return orden;
+    } 
+     const filterTasksByTag=(tag)=>{
+        let filtrar=task.filter(item=>item.tags.includes(tag))
+        return filtrar
+     }
+    const updateTask=(id, updates)=>{
+        const index=task.findIndex(item=>item.id===id);
+        const actualizado=  task[index]={...task[index],...updates};
+        return actualizado
     }
 
     return{
@@ -45,6 +54,8 @@ function createTaskPlanner() {
         getCompletedTasks,
         markTaskCompleted,
         getSortedTasksByPriority,
+        filterTasksByTag,
+        updateTask
     }
   }
 
@@ -106,6 +117,13 @@ planner.addTask({
 })
 
 
+planner.addTask({
+    id: 8,
+    name: "css",
+    priority: 2,
+    tags: ["programacion"],
+    completed: true,
+})
 
 
 
