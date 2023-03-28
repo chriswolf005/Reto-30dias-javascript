@@ -2,7 +2,7 @@
 cumplir para realizar el ejercicio */
 
 
-export function doTask1() {//La funcion, retorna una promesa
+export  function doTask1() {//La funcion, retorna una promesa
     return new Promise((resolve, reject) =>//La cual se cumplira cuando se ejecute el setimeout y pasen 3 sg
       (window.setTimeout(() => resolve('Task 1'), 300))
     );
