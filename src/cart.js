@@ -29,7 +29,7 @@
  class Service extends Product {
   // Tu código aquí 👈
   constructor(name, price){
-    super(name, price)
+    super(name, price,1)
   }
   addToCart(){
     console.log(`Agregando el servicio ${this.name} al carrito`)
